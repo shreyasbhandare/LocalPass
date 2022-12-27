@@ -1,6 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "LocalPass",
+  "name": "LocalPass",
+  "description": "Local Password Vault",
+  "version": "1.0",
+  "manifest_version": 1,
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
   "icons": [
     {
       "src": "favicon.ico",

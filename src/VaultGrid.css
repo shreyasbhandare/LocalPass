@@ -1,0 +1,62 @@
+/* Utils */
+.filter-inactive {
+    background-color: #fff;
+    color: #959595;
+}
+
+.filter-active {
+    background-color: #959595;
+    color: #fff;
+}
+
+/**/
+
+.grid-container {
+    padding-top: 60px;
+}
+
+#grid-controls-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#grid-filters-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grid-controls-flex-item {
+    margin: 12px 0;
+}
+
+.grid-controls-flex-item span {
+    font-weight: 700;
+}
+
+.grid-filters-flex-item {
+    height: 45px;
+    box-shadow: 0 1.5px 1.5px rgb(0 0 0 / 0.2);
+}
+
+.grid-filters-flex-item:not(:last-child) {
+    margin: 0px 5px;
+    border-radius: 3px;
+    width: 45px;
+    padding: 10px;
+}
+
+.grid-filters-flex-item:last-child {
+    border-radius: 5px;
+}
+
+.flex-wrapper-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-wrapper-list {
+
+}

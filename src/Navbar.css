@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #D12F2E;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    font-weight: 600;
+    z-index: 3;
+    color: #fff;
+}
+
+#nav-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#search-assembly {
+    background-color: #DB5B50;
+    height: 40px;
+    width: 600px;
+    align-items: center;
+}
+
+#search-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#search-box {
+    background-color: #DB5B50;
+    height: 100%;
+    width: 563px;
+    padding-left: 10px;
+}
+
+#search-box:focus {
+    outline: none;
+    background-color: #fff;
+    color: #000;
+}
+
+#search-box::placeholder {
+    color: #F1BDB6;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+#search-box::-ms-input-placeholder { /* Microsoft Edge */
+    color: #F1BDB6;
+    opacity: 1;
+    font-size: 1.2rem;
+}
+
+#search-box:focus::placeholder {
+    color: grey;
+    opacity: 0.5;
+}
+
+#search-box:focus::-ms-input-placeholder { /* Microsoft Edge */
+    color: grey;
+    opacity: 0.5;
+}
