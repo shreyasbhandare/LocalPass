@@ -58,5 +58,6 @@
 }
 
 .flex-wrapper-list {
-
+    display: flex;
+    flex-direction: column;
 }

@@ -1,19 +1,20 @@
 .card-layout {
-    box-shadow: 0 3px 3px rgb(0 0 0 / 0.2);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 2px;
 }
 
 .main-flex-wrapper {
-    height: 150px;
-    width: 300px;
-    margin: 20px 20px;
+    height: 120px;
+    width: 250px;
+    margin: 10px 10px;
     display: flex;
     flex-direction: column;
 }
 
 .main-flex-wrapper-list {
     height: 75px;
-    margin: 20px 20px;
+    width: 900px;
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
 }
@@ -27,19 +28,38 @@
 }
 
 .details-flex-wrapper {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .details-flex-wrapper-list {
-
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .details-flex-item {
-
 }
 
 .details-flex-item-list {
+    padding: 10px 0;
+}
 
+.details-flex-wrapper-list #info-container {
+    margin-left: 40%;
+}
+
+.details-flex-item-list #action-container {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#action-container {
+    margin-top: 12px;
+    color: #3C4A54;
+    border-color: grey;
 }
 
 #action-container li {
@@ -56,10 +76,66 @@
     margin: 0 2px;
 }
 
-#thumbnail-img {
-    background: url('./images/lock.png') no-repeat center center/cover;
+.details-button:hover {
+    background-color: #3C4A54;
+    color: #fff;
+    cursor: pointer;
 }
 
-.main-flex-item #thumbnail-img {
+.main-flex-wrapper-list #thumbnail-img {
+    height: 100%;
+    width: 200px;
+}
+
+#thumbnail-img {
     height: 100px;
+    width: 100%;
+    background: url('./images/lock-new.png') no-repeat center center/cover;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#launch-btn {
+    border: 1px solid white;
+    background-color: #3C4A54;
+    color: white;
+    width: 60%;
+    padding: 3px 0;
+    margin: 0 auto;
+    border-radius: 3px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#launch-btn:hover {
+    background-color: grey;
+}
+
+#select-cb {
+    text-align: end;
+    padding-right: 4px;
+}
+
+.details-flex-item h4 {
+    color:#3C4A54;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.details-flex-item-list h4{
+    color:#3C4A54;
+    font-weight: 600;
+}
+
+.details-flex-item h5 {
+    margin-left: 5px;
+    color: grey;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.details-flex-item-list h5 {
+    color: grey;
+    font-weight: 400;
+    font-size: 0.8em;
 }
